@@ -29,6 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+@font-face {
+	font-family: 'Segoe Script';
+	src: url('assets\webfonts\segoesc.ttf') format('truetype');
+	}
+
 body {
 	line-height: 1;
 }
@@ -107,7 +112,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		color: #252122;
+		color: #94324b;
 		font-weight: 400;
 	}
 
@@ -153,7 +158,7 @@ input, select, textarea {
 
 	a {
 		color: #d52349;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -2049,10 +2054,10 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #282829;
 			font-weight: 900;
 			font-size: 2.5em;
-			font-family: 'Segoe Script';
+			font-family: 'Segoe Script', sans-serif;
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
@@ -2090,11 +2095,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #f6f6f6;
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #595580;
 					color: #fff !important;
 					font-weight: 700;
 				}
