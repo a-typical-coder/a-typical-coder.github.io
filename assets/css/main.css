@@ -2020,7 +2020,7 @@ input, select, textarea {
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #a3378f;
+			background-color: #2e3f77;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -2040,7 +2040,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #a3378f;
+				border-top: solid 2em #595580;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
