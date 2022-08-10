@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
 	font-family: 'Segoe Script';
-	src: url('assets\webfonts\segoesc.ttf') format('truetype');
+	src: url('assets/webfonts/segoesc.ttf') format('truetype');
 	}
 
 body {
