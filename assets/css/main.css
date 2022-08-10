@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		color: #94324b;
+		color: #5d5d5d;
 		font-weight: 400;
 	}
 
@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
+		color: #8078c2;
 		text-decoration: none;
 	}
 
@@ -1619,7 +1619,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #2e3f77;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1637,7 +1637,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #4c5e9b;
 		}
 
 		input[type="button"]:active,
@@ -1645,7 +1645,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #4c5e9b;
 		}
 
 		input[type="button"].alt,
@@ -1653,7 +1653,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: #2e3f77;
 		}
 
 			input[type="button"].alt:hover,
@@ -1661,7 +1661,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #353132;
+				background: #4c5e9b;
 			}
 
 			input[type="button"].alt:active,
@@ -1669,8 +1669,32 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #151112;
+				background: #4c5e9b;
 			}
+		
+			input[type="button"].altmore,
+			input[type="submit"].altmore,
+			input[type="reset"].altmore,
+			button.altmorelt,
+			.button.altmore {
+				background: rgba(40, 40, 40, 0.98);
+			}
+	
+				input[type="button"].altmore:hover,
+				input[type="submit"].altmore:hover,
+				input[type="reset"].altmore:hover,
+				button.altmore:hover,
+				.button.altmore:hover {
+					background: rgba(75, 75, 75, 0.98);
+				}
+	
+				input[type="button"].altmore:active,
+				input[type="submit"].altmore:active,
+				input[type="reset"].altmore:active,
+				button.altmore:active,
+				.button.altmore:active {
+					background: rgba(75, 75, 75, 0.98);
+				}
 
 		input[type="button"].icon:before,
 		input[type="submit"].icon:before,
@@ -1833,7 +1857,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 1.3em;
-			background-color: #d52349;
+			background-color: #595580;
 			height: 3.5em;
 			text-align: center;
 			color: #fff;
@@ -1848,7 +1872,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: 0;
 				right: -1.2em;
-				border-left: solid 1.25em #d52349;
+				border-left: solid 1.25em #595580;
 				border-top: solid 1.8em transparent;
 				border-bottom: solid 1.8em transparent;
 			}
@@ -2054,7 +2078,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #282829;
+			color: rgba(75, 75, 75, 0.98);
 			font-weight: 900;
 			font-size: 2.5em;
 			font-family: 'Segoe Script', sans-serif;
@@ -2831,7 +2855,8 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					color: #ff4280;
+					color: rgba(75, 75, 75, 0.98);
+					font-family: 'Segoe Script', sans-serif;
 					font-weight: 900;
 					font-size: 1.75em;
 					letter-spacing: -0.035em;
