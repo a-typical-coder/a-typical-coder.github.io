@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
 	font-family: 'Segoe Script';
-	src: url('assets/webfonts/segoesc.ttf') format('truetype');
+	src: url('https://atypicalcoder-hub.github.io/assets/webfonts/segoesc.ttf') format('truetype');
 	}
 
 body {
@@ -2078,7 +2078,8 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: rgba(75, 75, 75, 0.98);
+			/* color: rgba(75, 75, 75, 0.98); */
+			color: pink;
 			font-weight: 900;
 			font-size: 2.5em;
 			font-family: 'Segoe Script', sans-serif;
