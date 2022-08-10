@@ -2078,8 +2078,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			/* color: rgba(75, 75, 75, 0.98); */
-			color: pink;
+			color: rgba(75, 75, 75, 0.98);
 			font-weight: 900;
 			font-size: 2.5em;
 			font-family: 'Segoe Script', sans-serif;
