@@ -1587,8 +1587,12 @@ input, select, textarea {
 			margin: -4.5em 0 4.25em -3.5em;
 		}
 
+		.box.post {
+			padding: 4em 3em 1.5em 3em;
+		}
+
 		.box.post header {
-			padding-top: 1em;
+			padding: 0 0 0 0;
 			margin: 0 0 2em 0;
 		}
 
@@ -2091,6 +2095,30 @@ input, select, textarea {
  		vertical-align: middle;
   		line-height: normal;
 	}
+
+/* about page, the team section */
+
+.float-container {
+	height: fit-content;
+	width: auto;
+}
+
+.float-child1 {
+    width: 60%;
+    float: left;
+    padding: 0 40px 0 0;
+}  
+
+.float-child2 {
+	width: 40%;
+    float: left;
+    padding: 0 0 0 0;
+}  
+
+.float-child-pic {
+	width: 100%;
+	float: left;
+}
 
 /* youtube video embed */
 
