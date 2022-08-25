@@ -1,1 +1,0 @@
-the limit is 1 GB
